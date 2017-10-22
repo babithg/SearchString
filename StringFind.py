@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-#Search a String from Strings
+#Search a String from Strings and display the list of findings 
 
 count = 1
 total = 0
