@@ -9,7 +9,7 @@ try:
         file1 = open("text","r")
         file2 = open("messages","r")
 except:
-        print("""Missing text or messages file:
+        print("""Missing text or messages file :
                  text file and messages file must be available in the current directory
                  text file save the key string to search
                  messages file need to have the file where need to search
