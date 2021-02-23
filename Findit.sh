@@ -34,8 +34,8 @@ then
                 cat $file2 | awk "/$file1/"' {print "Line " NR ": "$0}'
         fi
 
-        echo "Total $oneline Strings Found"
+        echo "[+] Total $oneline Strings Found"
 else
-        echo "Not Found The String"
+        echo "[+] Not Found The String"
 fi
 
